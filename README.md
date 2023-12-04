@@ -1,8 +1,25 @@
-# Advent of Code
+# ❄️ Advent of Code
 
 My solutions for Advent of Code puzzles, written in Python.
 
-## Running the Code
+## 🎉 Solutions
+
+### 🗓️ [2023](https://adventofcode.com/2023)
+
+| Days     | Puzzles                                               | Solutions                               | Parts    |
+| -------- | ----------------------------------------------------- | --------------------------------------- | -------- |
+| 1        | [Trebuchet?!](https://adventofcode.com/2023/day/1)    | [`2023/day01.py`](/2023/day01.py)       | ⭐⭐     |
+| 2        | [Cube Conundrum](https://adventofcode.com/2023/day/2) | [`2023/day02.py`](/2023/day02.py)       | ⭐⭐     |
+| 3        | [Gear Ratios](https://adventofcode.com/2023/day/3)    | [`2023/day03.py`](/2023/day03.py)       | ⭐⭐     |
+| 4        | [Scratchcards](https://adventofcode.com/2023/day/4)   | [`2023/day04.py`](/2023/day04.py)       | ⭐⭐     |
+| **4/25** |    
+
+## 🧩 Prerequisites
+
+Python 3.10 (at least that's what I used when I wrote the code :P)
+No third party libs (so far)
+
+## 🏃 Running the Code
 
 Retrieve your input data from https://adventofcode.com/ and save it as `day[X].txt` in the folder of the relevant year, e.g. 2023.
 The input data files have to be located right besides the python script so the script can find them automatically.
@@ -20,7 +37,7 @@ Then run the python script for a given day, e.g.
 $ ~\AdventOfCode\2023> python day01.py
 ```
 
-## Why don't you also provide the input data?
+## 💭 Why don't you also provide the input data?
 
 The creator of Advent of Code does not want input data to be shared in fear of people trying to clone or steal his website, so I'll comply. Sorry for the inconvenience.
 
@@ -28,6 +45,3 @@ The creator of Advent of Code does not want input data to be shared in fear of p
 
 [Source](https://www.reddit.com/r/adventofcode/comments/7lesj5/is_it_kosher_to_share_puzzle_inputs_and_answers/drlt9am/)
 
-## Prerequisites
-
-Python 3.10 (at least that's what I used :P)
