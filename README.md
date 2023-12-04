@@ -1,4 +1,4 @@
-# ❄️ Advent of Code
+# ☃️ Advent of Code
 
 My solutions for Advent of Code puzzles, written in Python.
 
@@ -16,13 +16,14 @@ My solutions for Advent of Code puzzles, written in Python.
 
 ## 🧩 Prerequisites
 
-Python 3.10 (at least that's what I used when I wrote the code :P)
-No third party libs (so far)
+Python 3.10 (at least that's what I used when I wrote the code :P)    
+No third party libs - so far!
 
 ## 🏃 Running the Code
 
-Retrieve your input data from https://adventofcode.com/ and save it as `day[X].txt` in the folder of the relevant year, e.g. 2023.
-The input data files have to be located right besides the python script so the script can find them automatically.
+The input data files have to be located right besides the python scripts so they're found automatically.
+
+Retrieve your input data from https://adventofcode.com/ and save it as `dayXX.txt` in the folder of the relevant year, e.g. 2023. Replace `XX` with the number of the corresponding day, e.g. `day01`.
 
 After downloading the data your folder may look like this
 
