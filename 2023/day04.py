@@ -69,7 +69,7 @@ Process all of the original and copied scratchcards until no more scratchcards a
 
 """
 import math
-
+import time
 
 def get_input():
     import os
@@ -114,11 +114,9 @@ def solve_part2(in_data):
             if n in winning_numbers_set:
                 matches += 1
 
-        for c in range(cards[i]):
-            for m in range(matches):
-                card_idx = i + m + 1
-                if card_idx < len(cards):
-                    cards[card_idx] += 1
+        for m in range(matches):
+            card_idx = i + m + 1
+            cards[card_idx] += cards[i]
 
     total_num_cards = sum(cards)
     print(f"Cards: {cards}")
@@ -128,8 +126,10 @@ def solve_part2(in_data):
 if __name__ == "__main__":
     data = get_input()
 
+    start_time = time.perf_counter()
     result = solve_part1(data)
-    print(f"Results part 1: {result}")
+    print(f"Results part 1: {result}, Runtime (ms): {(time.perf_counter() - start_time) * 1000.0}")
 
+    start_time = time.perf_counter()
     result = solve_part2(data)
-    print(f"Results part 2: {result}")
+    print(f"Results part 2: {result}, Runtime (ms): {(time.perf_counter() - start_time) * 1000.0}")
