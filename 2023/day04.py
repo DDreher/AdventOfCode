@@ -71,6 +71,7 @@ Process all of the original and copied scratchcards until no more scratchcards a
 import math
 import time
 
+
 def get_input():
     import os
     with open(f"{os.path.basename(__file__)[:-3]}.txt") as f:
